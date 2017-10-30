@@ -1,0 +1,69 @@
+/*
+    This is a very basic UI written in HTML & CSS (bad HTML and CSS at that) that is used for The Freedom Frontier.
+    Copyright (C) 2017 Cameron Brian Richard Redmore
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Affero General Public License as published
+    by the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Affero General Public License for more details.
+
+    You should have received a copy of the GNU Affero General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*
+{
+    box-sizing: border-box !important;
+}
+body, html
+{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.linkcontainer
+{
+    padding: 5px;
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer !important;
+}
+.linkcontainer:nth-child(1)
+{
+    background-color: #BA2F0B;
+}
+.linkcontainer:nth-child(2)
+{
+    background-color: #BA930B;
+}
+.linkcontainer:nth-child(3)
+{
+    background-color: #08853E;
+}
+.linkcontainer:nth-child(4)
+{
+    background-color: #211881;
+}
+.linkcontainer:nth-child(5)
+{
+    background-color: #673AB7;
+}
+.linkcontainer:nth-child(6)
+{
+    background-color: #9C27B0;
+}
+.linkcontainer:not(:hover)
+{
+    filter: grayscale(35%) brightness(70%);
+}
